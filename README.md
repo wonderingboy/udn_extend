@@ -17,3 +17,8 @@ The testing step:
 2. unzip the zip file in the root directory.
 
 3. run experiments/script_rpn_rcnn_new.m
+
+
+
+
+If you have some problems to run this code, please contact ZHOU Hui(smarthuizhou@gmail.com).
