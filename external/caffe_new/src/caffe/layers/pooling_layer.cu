@@ -215,10 +215,10 @@ void PoolingLayer<Dtype>::Forward_gpu(const vector<Blob<Dtype>*>& bottom,
         if (defw[ch*4+2] < blobl_a_min_)
             defw[ch*4+2] = blobl_a_min_;        
 
-        if (defw[ch*4+1] > 0.2)
-            defw[ch*4+1] = 0.2;
-        if (defw[ch*4+3] > 0.2)
-            defw[ch*4+3] = 0.2;   
+ //       if (defw[ch*4+1] > 0.2)
+ //           defw[ch*4+1] = 0.2;
+ //       if (defw[ch*4+3] > 0.2)
+ //           defw[ch*4+3] = 0.2;   
 /*		for (int i=0; i< 4; ++i)
 			if (fabs(defw[ch*4+i]) > 5)
 				LOG(INFO) << "defw > 5" <<ch <<": " << defw[ch*4+i];*/
