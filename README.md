@@ -2,14 +2,13 @@ udn_extend
 ======================
 pedestrian detection on Caltech dataset
 ----------------------
-This model can achieve 9.7% miss rate on refined Caltech reasonable test sets.
-
+1. This model can achieve **9.7%** miss rate on refined Caltech reasonable test sets.
 
 
 Perparation in advance:
 -----------------------
 
-1. download the test images(4024 frames).
+1. download the test images(Caltech test sets, 4024 frames).
 
 
 The testing step:
